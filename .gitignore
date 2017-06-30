@@ -29,6 +29,7 @@
 *.app
 /.vs
 /Debug
+/Release
 *.exp
 *.ilk
 *.pdb
