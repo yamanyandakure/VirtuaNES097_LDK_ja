@@ -1419,21 +1419,21 @@ BEGIN
     IDS_ERROR_INVALIDNESHEADER "NESヘッダーが異常です"
     IDS_ERROR_SMALLFILE     "ファイルサイズが小さすぎます"
     IDS_ERROR_UNSUPPORTMAPPER "マッパー %d は未サポートです"
-    IDS_ERROR_NODISKBIOS    "DISKSYS.ROM がありません"
+    IDS_ERROR_NODISKBIOS    "DISKSYS.ROMがありません"
     IDS_ERROR_UNSUPPORTDISK "8面より多いディスクは対応していません"
     IDS_ERROR_ILLEGALDISKSIZE "ディスクサイズが異常です"
 END
 
 STRINGTABLE
 BEGIN
-    IDS_ERROR_ILLEGALMAPPERNO "マッパーは 0 から 255 までの数値を指定してください"
+    IDS_ERROR_ILLEGALMAPPERNO "マッパーは 0 から 255 までの数値を指定して下さい"
     IDS_ERROR_ILLEGALHEADER "NESヘッダが異常なため、正常に動作しない事があります。\n実行しますか？"
     IDS_ERROR_ILLEGALSTATECRC "記録されたCRCが違うため、正常にロード出来ない事があります。\nロードしますか？"
-    IDS_ERROR_ILLEGALMOVIECRC "記録されたCRCが違うため、正常に再生出来ない事があります。\n実行しますか？"
-    IDS_ERROR_ILLEGALMOVIEVER "記録されたバージョンが違うため、正常に再生出来ない事があります。\n実行しますか？"
+    IDS_ERROR_ILLEGALMOVIECRC "記録されたCRCが違うため、正常に再生出来無い事があります。\n実行しますか？"
+    IDS_ERROR_ILLEGALMOVIEVER "記録されたバージョンが違うため、正常に再生出来無い事があります。\n実行しますか？"
     IDS_ERROR_ILLEGALMOVIEOLD "ムービーファイルのバージョンが古いため、再生出来ません。"
-    IDS_ERROR_ILLEGALMOVIECRC_A "記録されたCRCが違うため、正常に追加記録が出来ない事があります。\n実行しますか？"
-    IDS_ERROR_ILLEGALMOVIEVER_A "記録されたバージョンが違うため、正常に追加記録が出来ない事があります。\n実行しますか？"
+    IDS_ERROR_ILLEGALMOVIECRC_A "記録されたCRCが違うため、正常に追加記録が出来無い事があります。\n実行しますか？"
+    IDS_ERROR_ILLEGALMOVIEVER_A "記録されたバージョンが違うため、正常に追加記録が出来無い事があります。\n実行しますか？"
     IDS_ERROR_ILLEGALMOVIEOLD_A "ムービーファイルのバージョンが古いため、追加記録出来ません。"
 END
 
@@ -1441,7 +1441,7 @@ STRINGTABLE
 BEGIN
     IDS_ERROR_NETWORKDISCONNECT "ネットワークが切断されました"
     IDS_ERROR_NETWORKERROR  "ネットワークエラーです"
-    IDS_ERROR_NETWORKERROR_VERSION "VirtuaNES のバージョンが違います"
+    IDS_ERROR_NETWORKERROR_VERSION "VirtuaNESのバージョンが違います"
     IDS_ERROR_NETWORKERROR_CRC "ゲームが違います(PRG CRCが違います)"
 END
 
@@ -1596,14 +1596,14 @@ END
 STRINGTABLE
 BEGIN
     IDS_CUT_DISK_EJECT      "ディスクイジェクト"
-    IDS_CUT_DISK_0A         "ディスク1枚目A面"
-    IDS_CUT_DISK_0B         "ディスク1枚目B面"
-    IDS_CUT_DISK_1A         "ディスク2枚目A面"
-    IDS_CUT_DISK_1B         "ディスク2枚目B面"
-    IDS_CUT_DISK_2A         "ディスク3枚目A面"
-    IDS_CUT_DISK_2B         "ディスク3枚目B面"
-    IDS_CUT_DISK_3A         "ディスク4枚目A面"
-    IDS_CUT_DISK_3B         "ディスク4枚目B面"
+    IDS_CUT_DISK_0A         "ディスク１枚目Ａ面"
+    IDS_CUT_DISK_0B         "ディスク１枚目Ｂ面"
+    IDS_CUT_DISK_1A         "ディスク２枚目Ａ面"
+    IDS_CUT_DISK_1B         "ディスク２枚目Ｂ面"
+    IDS_CUT_DISK_2A         "ディスク３枚目Ａ面"
+    IDS_CUT_DISK_2B         "ディスク３枚目Ｂ面"
+    IDS_CUT_DISK_3A         "ディスク４枚目Ａ面"
+    IDS_CUT_DISK_3B         "ディスク４枚目Ｂ面"
 END
 
 STRINGTABLE
